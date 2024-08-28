@@ -1,2 +1,2 @@
 # curriculo.bootstrap
-https://github.com/rillopedro/curriculo.bootstrap
+https://rillopedro.github.io/curriculo.bootsrap
