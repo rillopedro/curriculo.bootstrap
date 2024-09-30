@@ -9,20 +9,168 @@
     
   </head>
   <body>
-    <header>
-       <nav>
-        <!-- aqui vai ser menu-->>
-       </nav>
-    </header>
-    <main>
-      ,<!-- Home com foto minha e apresentação simples-->
-      <section class="home">
-
-      </section>
-    </main>
     
-    <footer>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Pedro H. Rillo</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projetos">Projetos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#habilidades">Habilidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    
+    <main>
+      <!-- Home com foto minha e apresentação simples-->
+      <section class="sobre">
 
-    </footer>
+        <section id="sobre" class="section-padding">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                <h2>Sobre Mim</h2>
+                <p>Sou um desenvolvedor apaixonado por criar experiências digitais únicas. Com habilidades em design e desenvolvimento, me especializo em trazer ideias criativas para a vida através de códigos elegantes e eficientes.</p>
+              </div>
+              <div class="col-lg-6">
+                <img src="img/eu.jpg" alt="Foto de perfil" class="img-redonda" >
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <section id="projetos" class="section-padding bg-light">
+          <div class="container">
+            <h2 class="text-center">Projetos Recentes</h2>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="project-box">
+                  <h4>Projeto 1</h4>
+                  <p>Site criado em HTML e CSS com temática sobre o mundo pokémon.</p>
+                  <a href="https://rillopedro.github.io/meuprimeirosite1-C2024/" class="btn-outline">Ver mais</a>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="project-box">
+                  <h4>Projeto 2</h4>
+                  <p>Personagem Jinx dos Jovens Titãs em Ação feito no illustrator.</p>
+                  <a href="img/Captura de tela 2024-09-30 200742.png" class="btn-outline">Ver mais</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="habilidades" class="section-padding">
+          <div class="container">
+            <h2 class="text-center">Habilidades</h2>
+            <div class="row">
+              <div class="col-md-6 mb-4">
+                <div class="skill">
+                  <i class="fas fa-laptop-code skill-icon"></i>
+                  <h4>Desenvolvimento Web💻</h4>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                      <p>70%</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 mb-4">
+                <div class="skill">
+                  <i class="fas fa-paint-brush skill-icon"></i>
+                  <h4>Design Gráfico🎨</h4>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 100%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                     <p>100%</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 mb-4">
+                <div class="skill">
+                  <i class="fas fa-chart-line skill-icon"></i>
+                  <h4>SEO & Marketing📊</h4>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                      <p>80%</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 mb-4">
+                <div class="skill">
+                  <i class="fas fa-server skill-icon"></i>
+                  <h4>DevOps⚙️</h4>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                     <p>80%</p> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        
+        </section>
+
+        <section id="contato" class="section-padding bg-dark text-white">
+          <div class="container">
+            <h2 class="text-center">Entre em Contato</h2>
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="nome">Nome</label>
+                  <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="Seu email">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="mensagem">Mensagem</label>
+                <textarea class="form-control" id="mensagem" rows="4" placeholder="Sua mensagem"></textarea>
+              </div>
+              <button type="submit" class="btn btn-outline-light">Enviar</button>
+            </form>
+          </div>
+        </section>
+        
+    </main>
+
+      <footer class="footer bg-dark text-white">
+        <div class="container text-center py-4">
+          <p>&copy; 2024 Pedro H. Rillo. Todos os direitos reservados.</p>
+          <ul class="list-inline">
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/in/pedro-henrique-rillo-de-carvalho-24a5b7258/" class="text-white">LinkedIn</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/rillopedro" class="text-white">GitHub</a>
+            </li>
+            <li class="list-inline-item">
+              <a href="mailto:pedrorillo08@gmail.com" class="text-white">Email</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
+    
   </body>
 </html>

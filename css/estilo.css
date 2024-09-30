@@ -1,0 +1,185 @@
+/* Geral */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.section-padding {
+    padding: 5rem 0;
+}
+
+.bg-light {
+    background-color: #f9f9f9;
+}
+
+.bg-dark {
+    background-color: #212529;
+}
+
+.text-white {
+    color: #fff;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+/* Navbar */
+.navbar {
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    margin-right: 1.5rem;
+}
+
+/* Seção "Sobre" */
+#sobre img {
+    border-radius: 50%;
+    max-width: 300px;
+    margin-top: 20px;
+}
+
+/* Seção "Projetos" */
+#projetos .project-box {
+    background-color: #ffffff86;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ffffff86;
+    transition: transform 0.3s;
+}
+
+#projetos .project-box:hover {
+    transform: translateY(-10px);
+}
+
+.btn-outline {
+    border: 1px solid #007bff;
+    padding: 0.5rem 1.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #007bff;
+}
+
+.btn-outline:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Seção "Habilidades" */
+#habilidades .skill-icon {
+    font-size: 3rem;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+/* Seção "Contato" */
+#contato label {
+    font-weight: 600;
+}
+
+#contato .form-control {
+    border-radius: 0;
+    background-color: #343a40;
+    border: 1px solid #495057;
+    color: #ffffff;
+}
+
+#contato .form-control:focus {
+    background-color: #212529;
+}
+
+#contato .btn {
+    border-radius: 0;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.footer {
+    background-color: #212529;
+    color: #ffffff;
+    padding: 2rem 0;
+    text-align: center;
+    border-top: 1px solid #333;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.footer .list-inline {
+    margin-top: 10px;
+}
+
+.footer .list-inline-item {
+    margin: 0 10px;
+}
+
+.footer .list-inline-item a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer .list-inline-item a:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
+.img-redonda {
+    width: 300px;
+    height: 300px; 
+    border-radius: 60%;
+    object-fit: cover;
+}
+#habilidades h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.skill {
+    text-align: center;
+}
+
+.skill-icon {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 0.5rem;
+}
+
+/* Estilo das barras de progresso */
+.progress {
+    height: 25px;
+    border-radius: 30px;
+    background-color: #e9ecef;
+    margin-top: 0.5rem;
+}
+
+.progress-bar {
+    background-color: #007bff;
+    font-weight: bold;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    margin-top: auto;
+}
