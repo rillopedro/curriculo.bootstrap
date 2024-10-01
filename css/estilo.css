@@ -143,12 +143,6 @@ a {
     color: #007bff;
     text-decoration: underline;
 }
-.img-redonda {
-    width: 300px;
-    height: 300px; 
-    border-radius: 60%;
-    object-fit: cover;
-}
 #habilidades h4 {
     font-size: 1.2rem;
     font-weight: bold;
@@ -165,13 +159,16 @@ a {
     margin-bottom: 0.5rem;
 }
 
-/* Estilo das barras de progresso */
+
 .progress {
     height: 25px;
     border-radius: 30px;
     background-color: #e9ecef;
     margin-top: 0.5rem;
+    text-align: center;
+    position: relative;
 }
+
 
 .progress-bar {
     background-color: #007bff;
@@ -182,6 +179,7 @@ a {
     justify-content: center;
     border-radius: 30px;
     margin-top: auto;
+ 
 }
 .barrinha{
     margin-top: auto;
@@ -196,6 +194,33 @@ a {
 .porce{
     margin-right: -115px;
 }
-
-
-
+.icons{
+    width: 30px;
+    margin: auto;
+}
+.html{
+    width: 40px;
+    margin: auto;
+}
+.off{
+    width: 40px;
+    margin: auto;
+}
+.hab{
+    text-align: center;
+    margin: auto;
+    
+}
+.img-redonda {
+    width: 300px;
+    height: 300px; 
+    object-fit: cover;
+    float: right ;
+    margin-left: 10px;
+}
+.texto1{
+    text-align: left;
+}
+.col-lg-6 {
+    width: 90%;
+  }
